@@ -3,9 +3,8 @@ import numpy as np
 import json
 import urllib.request as request 
 
-json_str = request.urlopen("url").read()
+json_str = request.urlopen("url").read()#https://data.go.kr/data/15077856/fileData.do
 d = json.loads(json_str)
-
 
 down = [0,0,0,0,0,0,0,0,0,0]
 no = [0,0,0,0,0,0,0,0,0,0]
